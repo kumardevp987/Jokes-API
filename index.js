@@ -6,6 +6,11 @@ const port = process.env.PORT || 3000;
 const masterKey = "4VGP2DN-6EWM4SJ-N6FGRHV-Z3PR3TT";
 
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get('/',(req,res)=>{
+  res.json({message:"Welcome to Jokes API"})
+})
+
 //resetall
 app.get('/reset',(req,res)=>{
   jokes=Data;
