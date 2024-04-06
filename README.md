@@ -13,6 +13,8 @@ GET '/jokes/:id': Retrieves a specific joke based on the provided ID.
 
 GET '/filter': Retrieves jokes filtered by type. It expects a query parameter 'type' to filter jokes.
 
+### POST METHOD
+
 POST '/jokes': Adds a new joke to the list. Expects 'text' and 'type' in the request body.
 
 PUT '/jokes/:id': Updates an existing joke. Expects 'text' and 'type' in the request body.
