@@ -1,6 +1,8 @@
 # Jokes-API
 ## Documentation:
 
+### GET METHOD
+
 GET '/': Welcomes users to the Jokes API.
 
 GET '/reset': Resets all jokes to the original data.
